@@ -389,12 +389,29 @@
 </section>
 
 
-<!-- Paper PDF embed -->
+<!-- Paper preview -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <h2 class="title is-3 has-text-centered">Paper</h2>
-      <iframe src="static/pdfs/camyla.pdf" width="100%" height="800" style="border: 1px solid #ddd;"></iframe>
+      <div class="has-text-centered">
+        <a href="static/pdfs/camyla.pdf" target="_blank" rel="noopener">
+          <img src="static/images/paper_cover.png" alt="Camyla paper cover (page 1)"
+               style="max-width: 480px; width: 100%; height: auto; border: 1px solid #ddd; box-shadow: 0 4px 16px rgba(0,0,0,0.12);">
+        </a>
+        <div style="margin-top: 1.5rem;">
+          <a href="static/pdfs/camyla.pdf" target="_blank" rel="noopener"
+             class="button is-normal is-rounded is-dark">
+            <span class="icon"><i class="fas fa-file-pdf"></i></span>
+            <span>Open PDF</span>
+          </a>
+          <a href="static/pdfs/camyla.pdf" download
+             class="button is-normal is-rounded is-light">
+            <span class="icon"><i class="fas fa-download"></i></span>
+            <span>Download</span>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
