@@ -3,236 +3,116 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="title" content="Camyla: Scaling Autonomous Research in Medical Image Segmentation">
+  <meta name="description" content="Camyla is a fully autonomous research system that turns raw medical-image-segmentation datasets into literature-grounded proposals, executed experiments, and publication-ready manuscripts — with zero human intervention.">
+  <meta name="keywords" content="autonomous research, AI scientist, medical image segmentation, nnU-Net, LLM agent, tree search, AutoML, machine learning, computer vision, AI">
+  <meta name="author" content="Yifan Gao, Haoyue Li, Feng Yuan, Xin Gao, Weiran Huang, Xiaosong Wang">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
-  
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="og:site_name" content="Camyla Project">
+  <meta property="og:title" content="Camyla: Scaling Autonomous Research in Medical Image Segmentation">
+  <meta property="og:description" content="A fully autonomous research system for medical image segmentation: dataset in, paper out.">
+  <meta property="og:url" content="https://yifangao112.github.io/camyla-page/">
+  <meta property="og:image" content="https://yifangao112.github.io/camyla-page/static/images/hero.png">
+  <meta property="og:image:width" content="1447">
+  <meta property="og:image:height" content="843">
+  <meta property="og:image:alt" content="Camyla — Main results across CamylaBench">
+  <meta property="article:published_time" content="2026-04-13T00:00:00.000Z">
+  <meta property="article:author" content="Yifan Gao">
   <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
+  <meta property="article:tag" content="autonomous research">
+  <meta property="article:tag" content="medical image segmentation">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta name="twitter:title" content="Camyla: Scaling Autonomous Research in Medical Image Segmentation">
+  <meta name="twitter:description" content="A fully autonomous research system for medical image segmentation: dataset in, paper out.">
+  <meta name="twitter:image" content="https://yifangao112.github.io/camyla-page/static/images/hero.png">
+  <meta name="twitter:image:alt" content="Camyla — Main results across CamylaBench">
 
   <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
-  
-  <!-- Additional SEO -->
+  <meta name="citation_title" content="Camyla: Scaling Autonomous Research in Medical Image Segmentation">
+  <meta name="citation_author" content="Gao, Yifan">
+  <meta name="citation_author" content="Li, Haoyue">
+  <meta name="citation_author" content="Yuan, Feng">
+  <meta name="citation_author" content="Gao, Xin">
+  <meta name="citation_author" content="Huang, Weiran">
+  <meta name="citation_author" content="Wang, Xiaosong">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_pdf_url" content="https://yifangao112.github.io/camyla-page/static/pdfs/camyla.pdf">
+
   <meta name="theme-color" content="#2563eb">
   <meta name="msapplication-TileColor" content="#2563eb">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
-  <!-- Preconnect for performance -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://ajax.googleapis.com">
-  <link rel="preconnect" href="https://documentcloud.adobe.com">
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
+  <title>Camyla: Scaling Autonomous Research in Medical Image Segmentation</title>
 
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
-  
-  <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link rel="apple-touch-icon" href="static/images/favicon.ico">
-  
-  <!-- Critical CSS - Load synchronously -->
+
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-  
-  <!-- Non-critical CSS - Load asynchronously -->
+
   <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
-  <!-- Fallback for browsers that don't support preload -->
+
   <noscript>
     <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
     <link rel="stylesheet" href="static/css/bulma-slider.min.css">
     <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   </noscript>
-  
-  <!-- Fonts - Optimized loading -->
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Defer non-critical JavaScript -->
+
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
   <script defer src="static/js/fontawesome.all.min.js"></script>
   <script defer src="static/js/bulma-carousel.min.js"></script>
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
-  
-  <!-- Structured Data for Academic Papers -->
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "headline": "Camyla: Scaling Autonomous Research in Medical Image Segmentation",
+    "description": "Camyla is a fully autonomous research system that turns raw medical-image-segmentation datasets into literature-grounded proposals, executed experiments, and publication-ready manuscripts — with zero human intervention.",
     "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
+      {"@type": "Person", "name": "Yifan Gao", "affiliation": {"@type": "Organization", "name": "University of Science and Technology of China"}},
+      {"@type": "Person", "name": "Haoyue Li", "affiliation": {"@type": "Organization", "name": "University of Science and Technology of China"}},
+      {"@type": "Person", "name": "Feng Yuan", "affiliation": {"@type": "Organization", "name": "University of Science and Technology of China"}},
+      {"@type": "Person", "name": "Xin Gao", "affiliation": {"@type": "Organization", "name": "University of Science and Technology of China"}},
+      {"@type": "Person", "name": "Weiran Huang", "affiliation": {"@type": "Organization", "name": "Shanghai Jiao Tong University"}},
+      {"@type": "Person", "name": "Xiaosong Wang", "affiliation": {"@type": "Organization", "name": "Shanghai Artificial Intelligence Laboratory"}}
     ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
+    "datePublished": "2026-04-13",
+    "url": "https://yifangao112.github.io/camyla-page/",
+    "image": "https://yifangao112.github.io/camyla-page/static/images/hero.png",
+    "keywords": ["autonomous research", "medical image segmentation", "AI scientist", "nnU-Net", "LLM agent", "tree search"],
     "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
-  }
-  </script>
-  
-  <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
+    "license": "https://www.apache.org/licenses/LICENSE-2.0"
   }
   </script>
 </head>
 <body>
 
 
-  <!-- Scroll to Top Button -->
   <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
     <i class="fas fa-chevron-up"></i>
   </button>
-
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
 
   <main id="main-content">
   <section class="hero">
@@ -240,281 +120,324 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <p style="margin-bottom: 1.5rem;">
+              <img src="static/images/logo.png" alt="Camyla logo" style="max-width: 520px; width: 100%; height: auto;">
+            </p>
+            <h1 class="title is-2 publication-title">Camyla: Scaling Autonomous Research in<br>Medical Image Segmentation</h1>
             <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+                <a href="https://yifangao112.github.io/" target="_blank">Yifan Gao</a><sup>1,2</sup>,</span>
+              <span class="author-block">Haoyue Li<sup>1</sup>,</span>
+              <span class="author-block">Feng Yuan<sup>1</sup>,</span>
+              <span class="author-block">Xin Gao<sup>*1</sup>,</span>
+              <span class="author-block">Weiran Huang<sup>*2,3</sup>,</span>
+              <span class="author-block">Xiaosong Wang<sup>*2,4</sup></span>
+            </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>USTC &nbsp;·&nbsp; <sup>2</sup>Shanghai Innovation Institute &nbsp;·&nbsp; <sup>3</sup>SJTU &nbsp;·&nbsp; <sup>4</sup>Shanghai AI Lab</span>
+              <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding authors</small></span>
+            </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="static/pdfs/camyla.pdf" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    <span>Paper</span>
+                  </a>
+                </span>
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/XXXX.XXXXX" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="ai ai-arxiv"></i></span>
+                    <span>arXiv (soon)</span>
+                  </a>
+                </span>
 
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
+                <span class="link-block">
+                  <a href="https://github.com/yifangao112/Camyla" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fab fa-github"></i></span>
                     <span>Code</span>
                   </a>
                 </span>
 
-                <!-- TODO: Update with your arXiv paper ID -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+                  <a href="https://drive.google.com/drive/folders/11BrGWWZw8yr2o2AkVV9o5e7de-T9nngz?usp=sharing" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-database"></i></span>
+                    <span>CamylaBench</span>
+                  </a>
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- Teaser video-->
+<!-- Hero figure -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      <img src="static/images/hero.png" alt="Camyla main results across CamylaBench" style="width: 100%; height: auto;">
+      <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
+        <strong>Main results.</strong> (a) Per-dataset Dice improvement over the strongest baseline across two independent runs.
+        (b) Camyla achieves 100% task completion with zero proposal drift versus six open-ended research agents.
+        (c) Senior reviewers and AI evaluators both score Camyla manuscripts at the T1/T2 boundary of contemporary medical-imaging venues.
       </h2>
     </div>
   </div>
 </section>
-<!-- End teaser video -->
 
-<!-- Paper abstract -->
+
+<!-- Headline results -->
 <section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Headline Results</h2>
+        <div class="content has-text-left" style="font-size: 1.05rem;">
+          <p style="margin-bottom: 0.6rem;"><em>28 days &nbsp;·&nbsp; zero human intervention &nbsp;·&nbsp; one 8-GPU cluster.</em></p>
+          <ul>
+            <li><strong>40 complete manuscripts</strong> written end-to-end (literature → proposal → experiments → LaTeX paper).</li>
+            <li><strong>Cost-efficient</strong>: only <strong>$20–30 per paper</strong> in LLM API spend.</li>
+            <li><strong>Beats the strongest per-dataset baseline</strong> — chosen from 14 established architectures including nnU-Net — on <strong>24 of 31</strong> datasets under identical training budgets.</li>
+            <li><strong>CamylaBench</strong>: contamination-free benchmark of 31 datasets, built exclusively from 2025 publications.</li>
+            <li><strong>Stronger long-horizon orchestration on the experiment stage.</strong> Driven by cost-efficient backends (<strong>GLM-4.7</strong> + <strong>MiniMax-M2.5</strong>), Camyla outperforms <em>AI Scientist</em>, <em>autoresearch Claude Code (Opus 4.6)</em>, and <em>autoresearch Codex (GPT-5.4-xhigh)</em> on execution success, completion rate, and fidelity to the original proposal.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Abstract -->
+<section class="section hero">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            We present <strong>Camyla</strong>, a system for fully autonomous research within the scientific domain of medical image segmentation. Camyla transforms raw datasets into literature-grounded research proposals, executable experiments, and complete manuscripts without human intervention. Autonomous experimentation over long horizons poses three interrelated challenges: search effort drifts toward unpromising directions, knowledge from earlier trials degrades as context accumulates, and recovery from failures collapses into repetitive incremental fixes.
+          </p>
+          <p>
+            To address these challenges, the system combines three coupled mechanisms: <strong>Quality-Weighted Branch Exploration</strong> for allocating effort across competing proposals, <strong>Layered Reflective Memory</strong> for retaining and compressing cross-trial knowledge at multiple granularities, and <strong>Divergent Diagnostic Feedback</strong> for diversifying recovery after underperforming trials.
+          </p>
+          <p>
+            Camyla is evaluated on <strong>CamylaBench</strong>, a contamination-free benchmark of 31 datasets constructed exclusively from 2025 publications, under a strict zero-intervention protocol across two independent runs within a total of 28 days on an 8-GPU cluster. Across the two runs, Camyla generates more than <strong>2,700 novel model implementations</strong> and <strong>40 complete manuscripts</strong>, surpassing the strongest per-dataset baseline selected from 14 established architectures, including nnU-Net, on 22 and 18 of 31 datasets respectively (union: 24/31). Senior human reviewers score the generated manuscripts at the <strong>T1/T2 boundary</strong> of contemporary medical imaging journals. Relative to automated baselines, Camyla outperforms AutoML and NAS systems on aggregate segmentation performance and exceeds six open-ended research agents on both task completion and baseline-surpassing frequency.
           </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End paper abstract -->
 
 
-<!-- Image carousel -->
+<!-- System overview -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">System Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            Camyla operates as a three-phase idea-generation pipeline (literature search → challenge extraction → proposal scoring) followed by a three-stage experiment loop (Stage 1: baseline replication; Stage 2: creative research with N-way model competition; Stage 3: ablation), capped by a paper-writing agent that drafts, plots, cites, and compiles a publication-ready LaTeX manuscript.
+          </p>
+        </div>
+        <img src="static/images/camyla-overview.png" alt="Camyla system overview" style="width: 100%; height: auto; max-width: 1000px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Quantitative results carousel -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Quantitative Results</h2>
       <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+        <div class="item">
+          <img src="static/images/e2e_dice_improvement.png" alt="End-to-end Dice improvement per dataset" loading="lazy"/>
+          <h2 class="subtitle has-text-centered">
+            Per-dataset Dice improvement of Camyla over the strongest of 14 baseline architectures across CamylaBench.
+          </h2>
+        </div>
+        <div class="item">
+          <img src="static/images/manuscript_quality.png" alt="Manuscript quality scores" loading="lazy"/>
+          <h2 class="subtitle has-text-centered">
+            Manuscript quality: senior human reviewers and AI evaluators both place Camyla outputs at the T1/T2 boundary.
+          </h2>
+        </div>
+        <div class="item">
+          <img src="static/images/budget_win_rate.png" alt="Win rate vs compute budget" loading="lazy"/>
+          <h2 class="subtitle has-text-centered">
+            Win rate scales gracefully with compute budget, validating Camyla's QWBE search policy.
+          </h2>
+        </div>
+        <div class="item">
+          <img src="static/images/quality_dimensions.png" alt="Quality dimensions" loading="lazy"/>
+          <h2 class="subtitle has-text-centered">
+            Reviewer ratings across novelty, soundness, clarity, and presentation dimensions.
+          </h2>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End youtube video -->
 
 
-<!-- Video carousel -->
+<!-- Manuscript quality table -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Manuscript Quality</h2>
+        <p class="has-text-centered" style="margin-bottom: 1.5rem;">
+          Senior human reviewers map each of the 90 generated manuscripts (from earlier and current runs) to the journal tier it would plausibly fit. T1 anchors: <em>IEEE TMI</em> &amp; <em>Medical Image Analysis</em>; T2 band: JCR Q1 medical-imaging journals.
+        </p>
+        <div class="table-container">
+          <table class="table is-fullwidth is-striped is-hoverable">
+            <thead>
+              <tr>
+                <th>Tier</th>
+                <th class="has-text-centered">Journals</th>
+                <th class="has-text-centered">Papers</th>
+                <th>Representative venues</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>T1</strong> (top-tier)</td>
+                <td class="has-text-centered">2</td>
+                <td class="has-text-centered">10</td>
+                <td>IEEE Transactions on Medical Imaging; Medical Image Analysis</td>
+              </tr>
+              <tr>
+                <td><strong>T2</strong> (JCR Q1)</td>
+                <td class="has-text-centered">7</td>
+                <td class="has-text-centered">35</td>
+                <td>IEEE Journal of Biomedical and Health Informatics; Artificial Intelligence in Medicine; <em>et al.</em></td>
+              </tr>
+              <tr>
+                <td><strong>T3</strong></td>
+                <td class="has-text-centered">9</td>
+                <td class="has-text-centered">45</td>
+                <td>International Journal of Computer Assisted Radiology and Surgery; Biomedical Physics &amp; Engineering Express; <em>et al.</em></td>
+              </tr>
+              <tr>
+                <td><strong>Total</strong></td>
+                <td class="has-text-centered"><strong>18</strong></td>
+                <td class="has-text-centered"><strong>90</strong></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Qualitative examples -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Qualitative Segmentation Examples</h2>
+        <img src="static/images/qualitative_examples.png" alt="Qualitative segmentation examples" style="width: 100%; height: auto;">
+        <p class="subtitle is-6" style="margin-top: 1rem;">
+          Predictions from Camyla-generated models compared against the strongest baseline across CamylaBench tasks.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Resources -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Resources</h2>
+        <div class="content has-text-left">
+          <ul>
+            <li><strong><a href="https://github.com/yifangao112/Camyla" target="_blank">Camyla</a></strong> — main pipeline (literature → proposals → QWBE experiments → paper writer).</li>
+            <li><strong><a href="https://github.com/yifangao112/CamylaNet" target="_blank">CamylaNet</a></strong> — segmentation framework on top of nnU-Net v2 with curated CNN / Transformer / state-space backbones; powers Camyla's baseline stage.</li>
+            <li><strong><a href="https://github.com/yifangao112/nnPrep" target="_blank">nnPrep</a></strong> — LLM agent that converts arbitrary medical-segmentation datasets into nnU-Net v2 layout.</li>
+            <li><strong><a href="https://drive.google.com/drive/folders/11BrGWWZw8yr2o2AkVV9o5e7de-T9nngz?usp=sharing" target="_blank">CamylaBench</a></strong> — 31 pre-formatted datasets (Google Drive). <em>CamylaTrace-232K</em> trajectories will follow shortly.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper PDF embed -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Paper</h2>
+      <iframe src="static/pdfs/camyla.pdf" width="100%" height="800" style="border: 1px solid #ddd;"></iframe>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
 
 
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
+<!-- BibTeX -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <div class="bibtex-header">
+      <h2 class="title">BibTeX</h2>
+      <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+        <i class="fas fa-copy"></i>
+        <span class="copy-text">Copy</span>
+      </button>
     </div>
-  </section>
-<!--End paper poster -->
-
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
+    <pre id="bibtex-code"><code>@misc{gao2026camyla,
+  title         = {Camyla: Scaling Autonomous Research in Medical Image Segmentation},
+  author        = {Gao, Yifan and Li, Haoyue and Yuan, Feng and Gao, Xin and Huang, Weiran and Wang, Xiaosong},
+  year          = {2026},
+  eprint        = {XXXX.XXXXX},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI}
 }</code></pre>
-    </div>
+  </div>
 </section>
-<!--End BibTex citation -->
 
 
-  <footer class="footer">
+<footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+            Camyla builds on <a href="https://github.com/SakanaAI/AI-Scientist" target="_blank">AI Scientist</a> (Sakana AI) and <a href="https://github.com/MIC-DKFZ/nnUNet" target="_blank">nnU-Net</a> (MIC-DKFZ).
+            Code is released under the Apache License 2.0.
           </p>
-
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>, adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website; please link back to the template page in the footer.
+            This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+</main>
 
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</body>
+</html>
